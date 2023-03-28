@@ -140,7 +140,7 @@ body{
 
 .contact_menu-navbar {
     grid-row-start: 3;
-    grid-column-end: span 2;
+    grid-column-end: span 1;
     margin: 10px;
     font-family: Inconsolata;
 }

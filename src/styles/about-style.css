@@ -31,11 +31,12 @@ body {
 
 .about-container div {
     padding: 10px;
+    /* border: 1px solid #fff; */
 }
 
 .about_menu-title {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
 
     font-size: 10vb;
     font-family: Inconsolata;
@@ -60,7 +61,7 @@ body {
 }
 .about_menu-navbar {
     grid-row-start: 3;
-    grid-column-end: span 2;
+    grid-column-end: span 1;
     margin: 10px;
     font-family: Inconsolata;
 }
