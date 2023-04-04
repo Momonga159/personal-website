@@ -15,17 +15,18 @@ body {
 }
 
 .about-container {
-    width: 100%;
-    height: 100%;
+
+    width: 100vw;
+    height: 100vh;
 
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
     gap: 10px;
-
     padding: 10px;
+
     box-sizing: border-box;
 }
 
@@ -36,7 +37,8 @@ body {
 
 .about_menu-title {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 9;
+    grid-row: 1;
 
     font-size: 10vb;
     font-family: Inconsolata;
@@ -54,14 +56,14 @@ body {
     white-space: nowrap;
 
     grid-column-start: 2;
-    grid-column-end: span 3;
+    grid-column-end: 9;
 
     grid-row-start: 2;
     grid-row-end: span 1;
 }
 .about_menu-navbar {
     grid-row-start: 3;
-    grid-column-end: span 1;
+    grid-column-end: span 2;
     margin: 10px;
     font-family: Inconsolata;
 }
