@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+/* Base styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #211830;
+    color: #ddd;
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+}
+
+#terminal {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background: #151515;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.terminal-bar {
+    background: #222;
+    color: #7a00ff;
+    padding: 5px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.input-line .prefix {
+    user-select: none;
+}
+
+#inputLine {
+    flex-grow: 1;
+    background: #151515;
+    border: none;
+    color: #433674;
+    font-family: 'Inconsolata', monospace;
+}
+
+#inputLine:focus {
+    outline: none;
+}
+
+#output {
+    white-space: pre-wrap;
+    margin-bottom: 5px;
+}
+
+#inputLine {
+    border-right: 2px solid #ddd;
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+a {
+    color: #7a00ff;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+
+.credit {
+    color: #7a00ff;
+}
+
+.help {
+    color: #7a00ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    #terminal {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    #terminal {
+        padding: 10px;
+        font-size: 12px;
+    }
+}

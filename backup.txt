@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <script src="src/scripts/script.js"></script>
+    <title>TerminalPortfolio</title>
+</head>
+
+<body>
+    <pre>
+ /$$      /$$                                                                
+| $$$    /$$$                                                                
+| $$$$  /$$$$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$ 
+| $$ $$/$$ $$ /$$__  $$| $$_  $$_  $$ /$$__  $$| $$__  $$ /$$__  $$ |____  $$
+| $$  $$$| $$| $$  \ $$| $$ \ $$ \ $$| $$  \ $$| $$  \ $$| $$  \ $$  /$$$$$$$
+| $$\  $ | $$| $$  | $$| $$ | $$ | $$| $$  | $$| $$  | $$| $$  | $$ /$$__  $$
+| $$ \/  | $$|  $$$$$$/| $$ | $$ | $$|  $$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$
+|__/     |__/ \______/ |__/ |__/ |__/ \______/ |__/  |__/ \____  $$ \_______/
+                                                          /$$  \ $$          
+                                                         |  $$$$$$/          
+                                                          \______/           
+</pre>
+
+    <div class="welcome-message">
+        Hi ! I'm Momonga and welcome to my <span class="welcome">portfolio</span> 
+        <br> To start enter the command <span class="help">'help'</span>
+    </div>
+</body>
+
+</html>
