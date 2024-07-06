@@ -85,6 +85,10 @@ a:hover, a:focus {
     color: #7a00ff;
 }
 
+.incoming{
+    color: #ffffff40;
+}
+
 /* Responsive adjustments */
 @media (max-width: 900px) {
     #terminal {
